@@ -1,0 +1,41 @@
+body{
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+}
+table{
+	background-color: #f3f3f3;
+
+}
+td{
+	text-align: left;
+	width: 70%
+
+}
+th {
+	background-color: #fe4902;
+	color:#fff;
+	cursor:pointer;
+	padding: 5px 10px;
+
+}
+
+td,th{
+	text-align: left;
+}
+
+a{
+	text-decoration: none;
+}
+td a{
+	color:#663300;
+	display:block;
+	padding:5px 10px;
+}
+
+tr:hover td{
+	background-color:#CACACA;
+}
+
+tr:hover td a{
+	color:#000;
+
+}

@@ -1,0 +1,147 @@
+/* line 1, ../sass/asn3.scss */
+body {
+  background: url("http://wallpaperus.org/wallpapers/06/39/linux-arch-1920x1080-wallpaper-2170228.png");
+  background-size: cover;
+}
+
+/* line 5, ../sass/asn3.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background: lightgrey;
+  font-size: 20px;
+  width: 100%;
+  opacity: .2;
+}
+/* line 13, ../sass/asn3.scss */
+footer:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 18, ../sass/asn3.scss */
+  nav {
+    margin-left: 0;
+    text-align: center;
+  }
+  /* line 21, ../sass/asn3.scss */
+  nav ul {
+    margin-left: 0;
+  }
+  /* line 23, ../sass/asn3.scss */
+  nav ul li {
+    list-style-type: none;
+    text-decoration: underline;
+    padding: 6px;
+    width: 87%;
+    margin-bottom: 3px;
+    margin: 1px 0 0 1px;
+    background-color: grey;
+  }
+  /* line 31, ../sass/asn3.scss */
+  nav ul li:hover {
+    background: red;
+  }
+
+  /* line 37, ../sass/asn3.scss */
+  .co {
+    width: 100%;
+    height: auto;
+    margin: 0 30px 30px 0;
+    text-align: center;
+    background: green;
+    padding-bottom: 10px;
+    border: 1px solid  green;
+    border-radius: 10px;
+  }
+
+  /* line 47, ../sass/asn3.scss */
+  .pic {
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    border: 1px solid blue;
+  }
+
+  /* line 53, ../sass/asn3.scss */
+  .heaad {
+    width: 100%;
+    margin: 0;
+    margin-top: 0 !important;
+    background: red;
+    border-radius: 20px;
+    text-align: center;
+    height: 80px;
+    font-size: 30px;
+    font-family: Papyrus, fantasy;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 67, ../sass/asn3.scss */
+  .pic {
+    width: 80%;
+    margin: 10%;
+    border: 1px solid blue;
+  }
+
+  /* line 72, ../sass/asn3.scss */
+  nav {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  /* line 75, ../sass/asn3.scss */
+  nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 5%;
+    margin-bottom: 15%;
+    text-decoration: underline;
+    padding: 10px;
+    color: white;
+  }
+  /* line 83, ../sass/asn3.scss */
+  nav ul li:hover {
+    background: lightgreen;
+  }
+
+  /* line 88, ../sass/asn3.scss */
+  .co {
+    width: 29%;
+    background: lightgreen;
+    text-align: center;
+    float: left;
+    margin: 3% 0 0 3%;
+    height: 490px;
+    background: #ccc;
+    padding: 3px;
+    border: 1px solid  green;
+    border-radius: 10px;
+  }
+
+  /* line 100, ../sass/asn3.scss */
+  .heaad {
+    width: 95%;
+    margin: 2.5% 0 0 2.5%;
+    margin-top: 0 !important;
+    background: red;
+    border-radius: 20px;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    font-family: Papyrus, fantasy;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  /* line 113, ../sass/asn3.scss */
+  .co {
+    background: grey;
+  }
+}
+/* line 117, ../sass/asn3.scss */
+.head h1 {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-size: 40px;
+  color: red;
+  padding: 7px;
+}

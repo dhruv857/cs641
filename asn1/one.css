@@ -1,0 +1,80 @@
+html {
+  background: url("bg.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+
+html,body{
+  margin:0;
+  padding:0;
+  font-family: Helvetica Neue, Helvetica, Arial;
+  color: #ffffff;
+  height: 100%;
+}
+
+#transy{
+  width: 100%;
+  height: 130%;
+  float: left;
+  background: #08233e;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+#wrapper{
+  width: auto;
+  margin: 0;
+  font-family: "Goudy Old Style",Garamond,"Big Calson","Times New Roman",serif;
+
+
+}
+
+
+
+ h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom:0px;
+  margin-top:0px;
+
+}
+
+h2{
+  text-align: center;
+  margin-top:0px;
+  font-size: 20px;
+  font-weight: 200;
+
+}
+
+.fil{
+  width:40%;
+  float:left;
+  margin-left: 38%;
+  width:35%;
+  margin-top:10px;
+
+  
+
+}
+
+.fil h2{
+  font-size:40px;
+  font-weight:700;
+  text-text-decoration:underline;
+  text-align:center;
+  color:red;
+  margin-bottom: 2px
+
+}
+.fil iframe{
+  overflow:hidden;
+  float:right;
+  margin-right:30px;
+  background: white;
+
+}
