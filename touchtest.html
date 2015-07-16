@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Draw</title>
+		<script type="text/javascript" src="modernizr.js"></script>
+
+		<script>
+
+    var canvas;
+    var context;
+    var colo="black"
+    var inaa=2;
+    window.onload=function(){
+
+
+
+      Modernizr.load({
+        test:Modernizr.touch,
+        yep: 'mobile.js',
+        nope: 'notouch.js',
+      });
+
+}
+
+    </script>
+
+
+		<style>
+		body{
+			background:url('bggg.jpg') no-repeat;
+			background-size:cover;
+		}
+	#controls{
+		margin-left:10%;
+	}
+		#controls br{
+			margin:0;
+			padding:2px;
+
+		}
+		#controls button{
+			width:90px;
+			font-size:20px;
+			border:2px solid black;
+			margin:3px;
+		}
+		#controls button:hover{
+		-ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+		}
+		</style>
+</head>
+<body>
+  <canvas id="draw" style="border:1px solid black;width:80%;height:80%;margin-left:10%;background:white">Use appropiate browser!!</canvas>
+<br style="clear:both">
+
+<div id="controls">
+
+<button id="clear" >Clear</button>
+
+<button id="erase">Eraser</button>
+
+<button id="penn">Draw</button>
+
+<button id="increase">+</button>
+
+<button id="decrease">-</button>
+
+
+
+<button id="red" style="background:red">Red</button>
+
+<button id="black" style="background:black">Black</button>
+
+<button id="blue" style="background:Blue">BLue</button>
+
+<button id="green" style="background:green">Green</button>
+
+<button id="gray" style="background:gray">Gray</button>
+
+
+
+
+</div>
+</body>
+</html>

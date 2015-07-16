@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shake the....</title>
+  <style>
+
+#showx{
+background:green;
+width:20%;
+float:left;
+}
+
+#showy{
+background:yellow;
+width:20%;
+float:left;
+}
+#showz{
+background:blue;
+width:20%;
+float:left;
+}
+#show{
+  width:80%;
+  height:70%;
+}
+    </style>
+
+
+</head>
+<body>
+<div id="show">
+<div id="showx">
+  x
+</div>
+<br>
+<div id="showy">
+  y
+</div>
+<br>
+<div id="showz">
+z
+</div>
+</div>
+<br>
+<script>
+function handleMotionEvent(event) {
+
+    var x = event.accelerationIncludingGravity.x;
+    var y = event.accelerationIncludingGravity.y;
+    var z = event.accelerationIncludingGravity.z;
+    document.getElementById("showx").style.height=(x/(x+y+z))+"%";
+
+    document.getElementById("showy").style.height=(y/(x+y+z))+"%";
+    document.getElementById("showz").style.height=(z/(x+y+z))+"%";
+  }
+
+
+
+window.addEventListener("devicemotion", handleMotionEvent, true);
+
+
+</script>
+
+</body>
+</html>
